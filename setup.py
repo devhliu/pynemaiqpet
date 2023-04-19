@@ -17,7 +17,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6, <3.9',
+    python_requires='>=3.6',
     install_requires=['pymirc>=0.23',
                       'nibabel>=3.0',
                       'matplotlib>=3.1',
