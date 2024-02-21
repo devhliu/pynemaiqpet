@@ -789,7 +789,7 @@ def show_WB_NEMA_recoveries(sphere_results, true_activity,
   fig2, axes2 = py.subplots(1,2, figsize = (6,4.), sharex = True)
 
   # for the EARL limits see
-  # http://earl.eanm.org/cms/website.php?id=/en/projects/fdg_pet_ct_accreditation/accreditation_specifications.htm
+  # https://earl.eanm.org/accreditation-specifications/
 
   if earlversion == 1:
     RCa50_min  = np.array([0.76, 0.72, 0.63, 0.57, 0.44, 0.27]) 
